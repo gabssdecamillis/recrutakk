@@ -1,0 +1,68 @@
+body{
+    text-align: center;
+    margin: 0;
+    padding-top: 800px;
+    font-family: 'DynaPuff', cursive;
+
+}
+#welcome{
+    position:absolute;
+    bottom:0;
+background: white;
+width: 100%;
+height: 100%;
+display:table;
+top: 40px;
+}
+.line{
+    width: 70px;
+    height: 6px;
+    margin: 8px auto;
+    background-color: red;
+}
+h1{
+    font-size: 45px;
+}
+p{
+    font-size: 35px;
+}
+.menu{
+    list-style: none;
+    font-size: 25px;
+    position: absolute;
+     z-index: 999;
+     cursor: pointer;
+     top: 0px;
+     position: fixed;
+     background-color: antiquewhite;
+     width: 100%;
+     margin-top: 0px;
+     padding: 27px;
+
+}
+.links{
+    float: left;
+     padding-top: 15px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+#kumalala{
+    height: 400px;
+}
+a{
+    text-decoration: none;
+
+}
+.parallax-inner{
+    display: table-cell;
+    vertical-align: middle;
+}
+.links:hover{
+font-size: 30px;
+text-decoration:underline;
+}
+#mn{
+    height: 400px;
+
+}
